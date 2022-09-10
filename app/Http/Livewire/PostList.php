@@ -12,4 +12,3 @@ class PostList extends Component
         return view('livewire.post-list',  ['posts' => Post::latest()->paginate(10)])->layout('layouts.app');
     }
 }
-
